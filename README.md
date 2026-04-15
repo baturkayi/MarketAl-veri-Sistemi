@@ -1,1 +1,0 @@
-# MarketAl-veri-Sistemi
