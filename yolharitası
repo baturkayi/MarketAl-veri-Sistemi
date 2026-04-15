@@ -1,1 +1,42 @@
+# 🛒 MarketAI - Sanal Market Yönetim Sistemi
 
+Bu proje, hem kullanıcıların alışveriş yapabileceği bir **Sanal Market** platformu hem de arka planda bu verileri işleyen bir **Yönetim Paneli** olarak tasarlanmıştır.
+
+---
+
+## 🚀 Proje Yol Haritası (Roadmap)
+
+### **Faz 1: Planlama ve Altyapı Kurulumu**
+- [ ] **Teknoloji Seçimi:** .NET 8 (Blazor), C# ve SQL Server kurulumları.
+- [ ] **Veritabanı Tasarımı:** - `Ürünler` (Ad, Fiyat, Stok, Kategori)
+  - `Kullanıcılar` (Müşteri, Admin)
+  - `Sepet & Siparişler` tablolarının oluşturulması.
+- [ ] **GitHub Düzeni:** Klasör yapısının (Auth, Services, Pages) oturtulması.
+
+### **Faz 2: Kullanıcı ve Yetkilendirme (Identity)**
+- [ ] **Giriş ve Kayıt Sistemi:** Müşteri ve Admin giriş ekranları.
+- [ ] **Rol Yönetimi:** Admin paneline sadece yetkili kullanıcıların erişebilmesi.
+
+### **Faz 3: Müşteri Arayüzü (Sanal Market)**
+- [ ] **Ürün Listeleme:** Kategorilere göre ürünlerin sergilenmesi.
+- [ ] **Arama ve Filtreleme:** Ürün ismine veya fiyata göre arama.
+- [ ] **Sepet Sistemi:** Ürün ekleme, çıkarma ve miktar güncelleme işlemleri.
+- [ ] **Sipariş Tamamlama:** Ödeme simülasyonu ve sipariş özeti.
+
+### **Faz 4: Admin Paneli (Yönetim & Takip)**
+- [ ] **Stok Yönetimi (CRUD):** Yeni ürün ekleme, fiyat güncelleme ve stok takibi.
+- [ ] **Sipariş İzleme:** Gelen siparişlerin durumunu (Hazırlanıyor, Teslim Edildi) yönetme.
+- [ ] **Müşteri Listesi:** Kayıtlı kullanıcıları görüntüleme.
+
+### **Faz 5: Veri Analizi ve AI Entegrasyonu (MarketAI)**
+- [ ] **Satış Raporları:** En çok satan ürünlerin grafiklerle gösterilmesi.
+- [ ] **Basit Tavsiye Sistemi:** "Bu ürünü alanlar bunları da aldı" mantığının kurulması.
+- [ ] **Stok Tahmini:** Azalan ürünler için otomatik uyarı sistemi.
+
+---
+
+## 🛠️ Teknik Mimari (Klasör Yapısı)
+* **Auth:** Yetkilendirme ve giriş kodları.
+* **Services:** Veritabanı bağlantıları ve iş mantığı.
+* **Pages:** Uygulamanın web sayfaları (.razor).
+* **wwwroot:** Görseller ve CSS dosyaları.
