@@ -1,1 +1,17 @@
+# 🎯 MarketAI - Proje Hedefleri
 
+Bu projenin temel amacı, geleneksel market yönetimini modern yazılım teknolojileriyle dijitalleştirerek verimliliği artırmaktır.
+
+## 🛠️ Teknik Hedefler
+* **Clean Architecture:** Projeyi profesyonel standartlarda (klasör yapısı, bağımlılık yönetimi) kurgulamak ve sürdürülebilir bir kod yapısı oluşturmak.
+* **Blazor Uzmanlığı:** Web arayüzünde C# yeteneklerini kullanarak modern ve hızlı bir Single Page Application (SPA) deneyimi sunmak.
+* **Veritabanı Entegrasyonu:** Stok ve satış verilerini SQL üzerinde güvenli ve hızlı bir şekilde yönetmek.
+
+## 📈 İşletme ve Yönetim Hedefleri
+* **Sıfır Hata ile Stok Takibi:** Manuel sayım hatalarını ortadan kaldıran, kritik seviyeye düşen ürünleri anında raporlayan bir sistem kurmak.
+* **Müşteri Deneyimi (UX):** Kullanıcıların aradığı ürünü saniyeler içinde bulup sepetine ekleyebileceği akıcı bir alışveriş süreci tasarlamak.
+* **Veri Odaklı Karar Verme:** Hangi ürünün ne zaman daha çok satıldığını analiz ederek, gelecekteki stok ihtiyaçlarını tahmin etmek.
+
+## 🌟 Vizyon Hedefleri (MarketAI)
+* **Yapay Zeka Destekli Öneriler:** Kullanıcıların geçmiş alışverişlerine göre onlara özel indirimler ve ürünler önermek.
+* **Mobil Uyumluluk:** Sistemin sadece bilgisayardan değil, market içindeki tabletlerden veya müşteri telefonlarından da kusursuz çalışmasını sağlamak.
